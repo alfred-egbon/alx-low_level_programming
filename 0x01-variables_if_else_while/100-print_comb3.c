@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-       int i, j;
-       for (i = 0; i <= 9; i++)
-       {
-	       for (j = 1; j <= 9; j++)
-	       {
+	int i, j;
+	for (i = 0; i <= 9; i++)
+	{
+		for (j = 1; j <= 9; j++)
+		{
 		       if (j > i)
 		       {
 
@@ -24,8 +24,8 @@ int main(void)
 				       putchar(' ');
 			       }
 		       }
-	       }
-       }
+		}
+	}
        putchar('\n');
        return (0);
 }
